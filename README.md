@@ -1,6 +1,10 @@
 # Washington Vehicle Registration Dashboard - Local
 
-This repository contains the code used to process the data and launch the Washington Vehicle Registration Dashboard on a local machine from Jupyter.
+This repository contains the code used to process the data and launch the Washington Vehicle Registration Dashboard on a local machine from Jupyter. 
+
+# Viewing the Dashboard Online
+
+The dash_code.ipynb file was modified slightly to publish the app online. The app is available at: https://gtrunz.pythonanywhere.com/ . It was developed primarily for laptop and desktop use and is not optimized for smartphones or other devices.
 
 # Code/Packages Used
 
@@ -19,7 +23,8 @@ This repository contains the code used to process the data and launch the Washin
    - numpy 1.26.0
    - dash 2.7.0
    - plotly 5.10.0
-   - geojson-rewind 1.0.0 
+   - geojson-rewind 1.0.0
+   - statsmodels 0.14.0
 
 # Data Sources/Notes
 - This dashboard has no affiliation with the State of Washington.
